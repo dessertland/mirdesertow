@@ -10,7 +10,17 @@
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
-
+ @font-face {
+     font-family: cookie;
+     src: url(../fonts/Cookie-Regular.ttf);
+     font-weight: regular;
+ }
+ 
+@font-face {
+     font-family: lifehack;
+     src: url(../fonts/ofont.ru_Lifehack.ttf);
+     font-weight: regular;
+}
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
@@ -309,8 +319,10 @@ button {
      position: absolute;
 }
 
+
 .logo a {
-     color: #fff !important;
+     font-family: lifehack;
+     color: rgb(185, 55, 55) !important;
      font-size: 25px;
      text-transform: uppercase;
      font-weight: bold;
@@ -387,8 +399,7 @@ ul.infomaco li a {
 /** banner section **/
 
 .full_bg {
-     background-image: linear-gradient(to right, #1f1c45 67%, #db341e 33%);
-     border: #fff solid 20px;
+     background-image:linear-gradient(to right, #d9b5b1 33%,#e7a7a7 67%);
      border-top: inherit;
      border-right: inherit;
      padding-bottom: 140px;
@@ -430,6 +441,7 @@ ul.infomaco li a {
 }
 
 .zon_text p {
+     font-family: Arial;
      text-align: left;
      padding: 0;
      font-size: 17px;
@@ -465,6 +477,9 @@ ul.infomaco li a {
 
 .coff_img figure img {
      filter: drop-shadow(0px 0px 41px #fff3);
+     border-radius: 140px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+
 }
 
 .relative {
@@ -519,9 +534,8 @@ ul.infomaco li a {
 /** about section **/
 
 .about {
-     background: #1f1d47;
+     background: #dbafaf;
      padding-bottom: 90px;
-     border: #fff solid 20px;
      border-top: inherit !important;
      border-left: inherit !important;
 }
@@ -532,6 +546,8 @@ ul.infomaco li a {
 
 .about .titlepage h2 {
      padding-bottom: 30px;
+     font-family: lifehack;
+     color: #bb4747
 }
 
 .about .titlepage p {
@@ -863,8 +879,7 @@ ul.infomaco li a {
 
 .footer {
      padding-top: 220px;
-     background: #1f1d47;
-     border: #fff solid 20px;
+     background: #471d2b;
      border-right: 0 !important;
      position: relative;
 }
@@ -894,6 +909,7 @@ ul.infomaco li a {
 }
 
 .logo_bottom {
+     font-family: lifehack;
      text-align: center;
      color: #fff !important;
      font-size: 50px;
@@ -1195,3 +1211,20 @@ ul.conta li a {
 
 
 /** end blog **/
+
+@media (max-width: 575px){
+     .zon_text h1 {
+          font-size: 62px;
+          line-height: 69px;
+          font-family: 'lifehack';
+      }
+}
+
+.item_pair{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 5px;
+}
+.container_collection .item{
+     padding-left: 5px;
+}
