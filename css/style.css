@@ -21,6 +21,11 @@
      src: url(../fonts/ofont.ru_Lifehack.ttf);
      font-weight: regular;
 }
+@font-face {
+     font-family: magnolia;
+     src: url(../fonts/ofont.ru_Magnolia.ttf);
+     font-weight: regular;
+}
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
@@ -441,10 +446,10 @@ ul.infomaco li a {
 }
 
 .zon_text p {
-     font-family: Arial;
+     font-family: magnolia;
      text-align: left;
      padding: 0;
-     font-size: 17px;
+     font-size: 21px;
      line-height: 25px;
      color: #fff;
      font-weight: 400;
