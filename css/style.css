@@ -390,7 +390,8 @@ ul.infomaco li a {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     background: #db341e;
+     background: #ff7676;
+     font-family: magnolia;
 }
 
 .di_no {

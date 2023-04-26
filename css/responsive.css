@@ -268,17 +268,20 @@
         margin-top: -25px;
     }
     .navigation .navbar-collapse {
-        background: #000000;
+        background: #ff7676;
         padding: 20px;
         margin-top: 65px;
         position: absolute;
         width: 100%;
         z-index: 999;
+        font-family: magnolia;
+        border-radius: 28px;
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
         color: #fff;
         text-align: center;
+        font-size: 20px;
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;
