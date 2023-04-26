@@ -391,7 +391,7 @@ ul.infomaco li a {
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      background: #ff7676;
-     font-family: magnolia;
+     
 }
 
 .di_no {
@@ -970,6 +970,7 @@ ul.infomaco li a {
      line-height: 24px;
      color: #fff;
      padding-bottom: 20px;
+     font-family: 'magnolia';
 }
 
 ul.menu_bottom li {
